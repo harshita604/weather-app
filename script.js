@@ -1,10 +1,7 @@
+
 require('dotenv').config();
-const apiKey = process.env.API_KEY;
-const apiUrl = process.env.API_URL;
-
-console.log(`API Key: ${apiKey}`);
-console.log(`API URL: ${apiUrl}`);
-
+const apikey = process.env.API_KEY;
+const apiurl = process.env.API_URL;
 const searchBox= document.querySelector(".search input");
 const searchBtn= document.querySelector(".search button");
 const weathericon= document.querySelector(".weather-icon");
